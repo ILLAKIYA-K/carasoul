@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<style>
+    .container{
+    width: 700px;
+    margin: 100px auto;
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    }
+
+    .icon{
+        height: 24px;
+        width: 24px;
+        stroke: #087f5b;
+        
+    }
+
+    .btn{
+height: 48px;
+width: 48px;
+        background-color: #fff;
+        cursor: pointer;
+        border-radius: 50%;
+        border: 2px solid #087f5b;
+    }
+
+    .btn:hover{
+        background-color: #087f5b;
+       
+    
+    }
+.btn:hover .icon{
+    stroke: #fff;
+}
+
+
+a:link, a:visited{
+       text-decoration: none;
+       color:black;
+       font-size: 18px;
+       height: 36px;
+       width: 36px;
+       border-radius: 50%;
+       padding: 10px;
+       
+}
+    a:hover, a:active{
+        background-color: #087f5b;
+        color: #fff;
+        
+        
+        
+    }
+
+
+</style>
+<body>
+    <div class="container">
+    <button class=" btn btn-right">
+    <svg xmlns="http://www.w3.org/2000/svg" fill="none"
+             viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="icon">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 19.5L8.25 12l7.5-7.5" />
+    
+              </svg> 
+              </button>
+              <div class="anchor">
+              <a href="#">1</a>
+              <a href="#">2</a>
+              <a href="#">3</a>
+              <a href="#">4</a>
+              <a href="#">5</a>
+              <a href="#">6</a>
+              <span>....</span>
+              <a href="#"> 23</a>
+            </div> 
+              <button class=" btn btn-left">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+              stroke-width="1.5" stroke="currentColor" class="icon">
+                 <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+               </svg>
+               
+            </button>
+
+        </div>           
+</body>
+</html>

@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    .accordian{
+        width: 700px;
+        margin: 100px auto;
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+    }
+
+    body{
+        font-family: "Inter", sans-serif;
+        color: #343a40;
+
+    }
+
+    .two{
+        font-size: 24px;
+        color: grey;
+    }
+
+    .how{
+        font-size: 24px;
+        color: #37b24d; 
+    }
+    .icon{
+        width: 24px;
+        height: 17px;
+        stroke: #37b24d;
+    }
+.lorem{
+    grid-column: 2;
+    display: none;
+}
+    .lorem p{
+        font-size: 16px;
+        margin-bottom: 20px;
+    
+    }
+.lorem ul{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    color: #868e96;
+    margin-left: 20px;
+    
+}
+
+
+.open .lorem{
+    display: block;
+}
+
+.item{
+    box-shadow: 0 0 32px rgba(0, 0 ,0 , 0.1);
+    padding: 24px;
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    column-gap: 24px;
+    row-gap: 32px;
+}
+    
+</style>
+<body>
+    <div class="accordian">
+        <div class="item">
+        <p class="two">01</p>
+        <p class="how">where are these chairs assembled?</p>
+        <svg xmlns="http://www.w3.org/2000/svg"
+         fill="none" viewBox="0 0 24 24" 
+         stroke-width="1.5"
+          stroke="currentColor"
+           class="icon">
+            <path stroke-linecap="round" 
+            stroke-linejoin="round"
+             d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+          </svg>
+          <div class="lorem">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Libero eum soluta molestias beatae dolores aliquid provident, repellat autem ab?
+             Mollitia consequatur iusto omnis deserunt ipsa pariatur reiciendis vitae nisi eum!</p>
+             <ul>
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.kkkljfjkalkfhierhkaklffkj</li>
+                <li>Libero eum soluta molestias beatae dolores aliquid provident, repellat autem ab?</li>
+                <li>Mollitia consequatur iusto omnis deserunt ipsa pariatur reiciendis vitae nisi eum!</li>
+                <li>Libero eum soluta molestias beatae dolores aliquid provident, repellat autem ab?</li>
+             </ul>
+            </div>
+            </div>
+        
+    
+      <div class="item open">  
+    <p class="two">02</p>
+    <p class="how">How long do i have to return my chair?</p>
+    <svg xmlns="http://www.w3.org/2000/svg"
+     fill="none" viewBox="0 0 24 24" 
+     stroke-width="1.5"
+      stroke="currentColor"
+       class="icon">
+        <path stroke-linecap="round" 
+        stroke-linejoin="round"
+         d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+      </svg>
+      <div class="lorem">
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+        Libero eum soluta molestias beatae dolores aliquid provident, repellat autem ab?
+         Mollitia consequatur iusto omnis deserunt ipsa pariatur reiciendis vitae nisi eum!</p>
+         <ul>
+            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.kkkljfjkalkfhierhkaklffkj</li>
+            <li>Libero eum soluta molestias beatae dolores aliquid provident, repellat autem ab?</li>
+            <li>Mollitia consequatur iusto omnis deserunt ipsa pariatur reiciendis vitae nisi eum!</li>
+            <li>Libero eum soluta molestias beatae dolores aliquid provident, repellat autem ab?</li>
+         </ul>
+        </div>
+        </div>
+    
+<div class="item">
+        <p class="two">03</p>
+        <p class="how">Do you ship to countries outside the EU?</p>
+        <svg xmlns="http://www.w3.org/2000/svg"
+         fill="none" viewBox="0 0 24 24" 
+         stroke-width="1.5"
+          stroke="currentColor"
+           class="icon">
+            <path stroke-linecap="round" 
+            stroke-linejoin="round"
+             d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+          </svg>
+          <div class="lorem">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Libero eum soluta molestias beatae dolores aliquid provident, repellat autem ab?
+             Mollitia consequatur iusto omnis deserunt ipsa pariatur reiciendis vitae nisi eum!</p>
+             <ul>
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.kkkljfjkalkfhierhkaklffkj</li>
+                <li>Libero eum soluta molestias beatae dolores aliquid provident, repellat autem ab?</li>
+                <li>Mollitia consequatur iusto omnis deserunt ipsa pariatur reiciendis vitae nisi eum!</li>
+                <li>Libero eum soluta molestias beatae dolores aliquid provident, repellat autem ab?</li>
+             </ul>
+            </div>
+        </div>
+</body>
+</html>

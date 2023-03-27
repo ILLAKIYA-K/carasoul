@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body{
+        font-family: "Inter", sans-serif;
+        color: #343a40;
+
+    }
+    .container{
+        width: 800px;
+        margin: 100px auto;
+        background-color: #087f5b;
+        border-radius: 8px;
+        padding: 32px;
+        padding-left: 86px;
+        position: relative;
+
+        display: flex;
+        align-items: center;
+        gap: 86px;
+    }
+
+    img{
+        height: 200px;
+        border-radius: 8px;
+        transform: scale(1.5);
+        box-shadow: 0 12px 24px rgba(0, 0, 0, 0.25);
+        
+    }
+
+    .icon{
+        height: 24px;
+        width: 24px;
+        stroke: #087f5b;
+       
+    }
+    
+    .sit{
+        margin-bottom: 24px;
+    }
+
+    .btn{
+        background-color: #fff;
+        height: 40px;
+        width: 40px;
+        border-radius: 50%;
+        border: none;
+        position: absolute;
+        box-shadow: 0 12px 32px rgba(0, 0, 0, 0.25);
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+.spaces{
+    position:absolute;
+    left: 50%;
+    top: 60%;
+    bottom: 0;
+    transform: translate(-50%, 32px);
+display:flex;
+gap: 12px;
+}
+.ipsum{
+    color:#fff;
+}
+.spaces :first-child{
+    background-color:#087f5b;
+}
+    .space{
+        height: 12px;
+        width: 12px;
+        background-color: #fff;
+        border: 2px solid #087f5b;
+        border-radius: 50%;
+        cursor: pointer;
+        margin-right: 0;
+        
+    }
+
+    
+
+    .btn-left{
+        left: -22px;
+            }
+
+    .btn-right{
+        right:-22px;
+        }
+    </style>
+<body>
+    <div class="container">
+    <img src="jacob.jpg" alt="jacon"/>
+    <blockquote  class="ipsum">
+    <p class="sit">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, corrupti asperiores
+         esse in, excepturi dolores provident odit ad 
+        vero veritatis consequatur velit veniam delectus incidunt accusantium
+         aspernatur saepe temporibus. Rem!</p>
+         <p class="maria">maria de almelda</p>
+         <p class="pro">senior product manager at EDP commercial</p>
+
+        </blockquote>
+        <button class="btn btn-left">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none"
+             viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="icon">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 19.5L8.25 12l7.5-7.5" />
+              </svg>
+              
+            </button>
+
+        <button class="btn btn-right">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+             stroke-width="1.5" stroke="currentColor" class="icon">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+              </svg>
+               </button>
+            </div>
+
+            <div class="spaces">
+                <button class="space">&nbsp;</button>
+                <button class="space">&nbsp;</button>
+                <button class="space">&nbsp;</button>
+                <button class="space">&nbsp;</button>
+
+            </div>
+
+</body>
+</html>
